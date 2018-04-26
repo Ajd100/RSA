@@ -237,7 +237,7 @@ public class RSA_Full {
 			result += decipherText.get(i);
 		
 		try{
-            File file = new File("Final1.txt");
+            File file = new File("Final.txt");
 			FileOutputStream fileOutput = new FileOutputStream(file);
             byte[] b = result.getBytes();
         //System.out.println("Number of byes in this file = " + file.available());
